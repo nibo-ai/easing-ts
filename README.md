@@ -1,7 +1,7 @@
 [![NPM](https://img.shields.io/npm/v/@nudgeit/easing-ts.svg)](https://www.npmjs.com/package/@nudgeit/easing-ts) ![License](https://img.shields.io/npm/l/@nudgeit/easing-ts.svg)
 [![Build Status](https://travis-ci.org/nibo-ai/easing-ts.png)](https://travis-ci.org/nibo-ai/easing-ts)
 
-[![NPM](https://nodei.co/npm/easing-ts.png)](https://nodei.co/npm/@nudgeit/easing-ts/)
+[![NPM](https://nodei.co/npm/@nudgeit/easing-ts.png)](https://nodei.co/npm/@nudgeit/easing-ts/)
 
 # Easing functions for JavaScript
 
