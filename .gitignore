@@ -1,0 +1,41 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/test
+/lib
+
+# dependencies
+/node_modules
+/bower_components
+
+# IDEs and editors
+/.idea
+/.vscode
+.project
+.classpath
+*.launch
+.settings/
+*.sublime-*
+
+# misc
+/.sass-cache
+/.ng_pkg_build
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+npm-debug.log.*
+package-lock.json
+testem.log
+/typings
+
+# e2e
+/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+/.vs
+/nudgeit-easing-ts.metadata.json
