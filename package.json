@@ -1,6 +1,6 @@
 {
 	"name": "@nudgeit/easing-ts",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "NudgeIT",
 	"license": "MIT",
 	"scripts": {
@@ -34,8 +34,7 @@
 		"url": "https://github.com/nibo-ai/easing.ts.git"
 	},
 	"peerDependencies": {
-		"@angular/core": "^4.0.1 || ~5.0.0 || ~5.2.0 || ~6.0.0 || ~7.0.0",
-		"rxjs": "~6.0.0"
+		"rxjs": "^6.0.0"
 	},
 	"devDependencies": {
 		"@angular-devkit/build-angular": "~0.10.0",
