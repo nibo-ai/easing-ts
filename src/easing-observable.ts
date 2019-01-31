@@ -8,9 +8,10 @@ export function easing(startValue: number = 0, endValue: number = 100,
 		timeStep: number = 100
 		): Observable<number> {
 	const steps = Math.floor(duration / timeStep) + (duration % timeStep ? 1 : 0);
-	const e = new Easing(startValue, endValue, delay, delay + timeStep * steps, easingFunction);
+	const e = new Easing(startValue, endValue, 0, timeStep * steps, easingFunction);
+	let currentTime = 0;
 	return timer(delay, timeStep).pipe(take(steps), map((value) => {
-		const currentTime = delay + value * timeStep;
+		currentTime += timeStep;
 		return e.getValue(currentTime);
 	}));
 }
